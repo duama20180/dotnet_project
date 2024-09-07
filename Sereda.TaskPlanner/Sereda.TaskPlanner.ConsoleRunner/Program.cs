@@ -21,15 +21,15 @@ internal static class Program
 
         for (int i = 0; i < taskCount; i++)
         {
-            Console.WriteLine($"\nEntering data for task  #{i + 1}");
+            Console.WriteLine($"\nEntering name for task  #{i + 1}");
 
-            Console.Write("Entering data for task ");
+            Console.Write("Entering name for task: ");
             string title = Console.ReadLine()?.Trim();
 
-            Console.Write("Enter the description of the task:  ");
+            Console.Write($"\nEnter the description of the task:  ");
             string description = Console.ReadLine()?.Trim();
 
-            Console.Write("Enter the date of creation(dd.MM.YYYY): ");
+            Console.Write($"\nEnter the date of creation(dd.MM.YYYY): ");
             if (!DateTime.TryParse(Console.ReadLine(), out DateTime creationDate))
             {
                 Console.WriteLine("Invalid date format. Try again.");
@@ -37,7 +37,7 @@ internal static class Program
                 continue;
             }
 
-            Console.Write("Enter the end date (dd.mm.yyyy): ");
+            Console.Write($"\nEnter the end date (dd.mm.yyyy): ");
             if (!DateTime.TryParse(Console.ReadLine(), out DateTime dueDate))
             {
                 Console.WriteLine("Invalid date format. Try again.");
@@ -45,7 +45,7 @@ internal static class Program
                 continue;
             }
 
-            Console.Write("Enter the priority (None, Low, Medium, High, Urgent): ");
+            Console.Write($"\nEnter the priority (None, Low, Medium, High, Urgent): ");
             if (!Enum.TryParse(Console.ReadLine(), true, out Priority priority))
             {
                 Console.WriteLine("Invalid priority. Try again.");
@@ -53,7 +53,7 @@ internal static class Program
                 continue;
             }
 
-            Console.Write("Enter the complexity (None, Minutes, Hours, Days, Weeks): ");
+            Console.Write($"\nEnter the complexity (None, Minutes, Hours, Days, Weeks): ");
             if (!Enum.TryParse(Console.ReadLine(), true, out Complexity complexity))
             {
                 Console.WriteLine("Invalid complexity. Try again.");

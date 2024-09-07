@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sereda.TaskPlanner.ConsoleRunner", "Sereda.TaskPlanner.ConsoleRunner\Sereda.TaskPlanner.ConsoleRunner.csproj", "{F5F90430-B4CF-4F28-A157-AB69E055BAE0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sereda.TaskPlanner.Domain.Models", "Sereda.TaskPlanner.Domain.Models\Sereda.TaskPlanner.Domain.Models.csproj", "{696D9BBD-9A58-4E2E-B7B0-0E070165D224}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sereda.TaskPlanner.Domain.Logic", "Sereda.TaskPlanner.Domain.Logic\Sereda.TaskPlanner.Domain.Logic.csproj", "{846D0AC0-EB94-4FAC-92FB-A4ECB0C60545}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F5F90430-B4CF-4F28-A157-AB69E055BAE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5F90430-B4CF-4F28-A157-AB69E055BAE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5F90430-B4CF-4F28-A157-AB69E055BAE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5F90430-B4CF-4F28-A157-AB69E055BAE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{696D9BBD-9A58-4E2E-B7B0-0E070165D224}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{696D9BBD-9A58-4E2E-B7B0-0E070165D224}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{696D9BBD-9A58-4E2E-B7B0-0E070165D224}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{696D9BBD-9A58-4E2E-B7B0-0E070165D224}.Release|Any CPU.Build.0 = Release|Any CPU
+		{846D0AC0-EB94-4FAC-92FB-A4ECB0C60545}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{846D0AC0-EB94-4FAC-92FB-A4ECB0C60545}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{846D0AC0-EB94-4FAC-92FB-A4ECB0C60545}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{846D0AC0-EB94-4FAC-92FB-A4ECB0C60545}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {571F304D-E043-4A4F-A4EC-A0FADF86EE10}
+	EndGlobalSection
+EndGlobal

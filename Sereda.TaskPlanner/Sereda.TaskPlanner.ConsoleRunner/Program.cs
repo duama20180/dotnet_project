@@ -61,7 +61,6 @@ internal static class Program
                 continue;
             }
 
-            // Додаємо новий елемент у список
             workItems.Add(new WorkItem
             {
                 Title = title,

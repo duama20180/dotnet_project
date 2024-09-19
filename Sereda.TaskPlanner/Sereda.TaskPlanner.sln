@@ -9,9 +9,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sereda.TaskPlanner.Domain.M
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sereda.TaskPlanner.Domain.Logic", "Sereda.TaskPlanner.Domain.Logic\Sereda.TaskPlanner.Domain.Logic.csproj", "{846D0AC0-EB94-4FAC-92FB-A4ECB0C60545}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sereda.TaskPlanner.DataAccess", "Sereda.TaskPlanner.DataAccess\Sereda.TaskPlanner.DataAccess.csproj", "{D4BF10FE-6353-4F59-8CA4-D2BFAEABB4DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sereda.TaskPlanner.DataAccess", "Sereda.TaskPlanner.DataAccess\Sereda.TaskPlanner.DataAccess.csproj", "{D4BF10FE-6353-4F59-8CA4-D2BFAEABB4DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sereda.TaskPlanner.DataAccess.Abstractions", "Sereda.TaskPlanner.DataAccess.Abstractions\Sereda.TaskPlanner.DataAccess.Abstractions.csproj", "{FCED1130-E6E3-4BCE-927A-FE3E52A2A6F9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sereda.TaskPlanner.DataAccess.Abstractions", "Sereda.TaskPlanner.DataAccess.Abstractions\Sereda.TaskPlanner.DataAccess.Abstractions.csproj", "{FCED1130-E6E3-4BCE-927A-FE3E52A2A6F9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataAccess", "DataAccess", "{F5C51E44-1B77-4518-805C-8B9991200FD2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{81AA0607-1353-4012-A3E0-3E6E641DFEC9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{4667FFE8-5085-4DC7-8935-863AD3D15781}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -42,6 +48,13 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F5F90430-B4CF-4F28-A157-AB69E055BAE0} = {4667FFE8-5085-4DC7-8935-863AD3D15781}
+		{696D9BBD-9A58-4E2E-B7B0-0E070165D224} = {81AA0607-1353-4012-A3E0-3E6E641DFEC9}
+		{846D0AC0-EB94-4FAC-92FB-A4ECB0C60545} = {81AA0607-1353-4012-A3E0-3E6E641DFEC9}
+		{D4BF10FE-6353-4F59-8CA4-D2BFAEABB4DD} = {F5C51E44-1B77-4518-805C-8B9991200FD2}
+		{FCED1130-E6E3-4BCE-927A-FE3E52A2A6F9} = {F5C51E44-1B77-4518-805C-8B9991200FD2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {571F304D-E043-4A4F-A4EC-A0FADF86EE10}

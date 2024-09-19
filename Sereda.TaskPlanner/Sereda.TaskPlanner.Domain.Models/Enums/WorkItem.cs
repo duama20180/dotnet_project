@@ -42,7 +42,7 @@ namespace Sereda.TaskPlanner.Domain.Models.Enums
 
         public override string ToString()
         {
-            return $"{Title}: due {DueDate:dd.MM.yyyy}, {Priority.ToString().ToLower()} priority";
+            return $"ID: {id}, {Title}: due {DueDate:dd.MM.yyyy}, {Priority.ToString().ToLower()} priority";
         }
     }
 }

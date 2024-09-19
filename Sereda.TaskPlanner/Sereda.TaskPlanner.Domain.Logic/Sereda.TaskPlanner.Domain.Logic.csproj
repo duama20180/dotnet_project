@@ -7,6 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Sereda.TaskPlanner.DataAccess.Abstractions\Sereda.TaskPlanner.DataAccess.Abstractions.csproj" />
+    <ProjectReference Include="..\Sereda.TaskPlanner.DataAccess\Sereda.TaskPlanner.DataAccess.csproj" />
     <ProjectReference Include="..\Sereda.TaskPlanner.Domain.Models\Sereda.TaskPlanner.Domain.Models.csproj" />
   </ItemGroup>
 
